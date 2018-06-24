@@ -1,5 +1,120 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
   * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+/*    border: 1px solid;
+*/  }
+
+  body {
+/*    background-color: #ADC4E7;*/
+    background-image: linear-gradient(to right bottom, #adc4e7, #c4c7ec, #dbcaed, #eecfeb, #fed4e7);
+    margin:0;
+    padding:0;
+  }
+
+  .header {
+    height: 45px;
+    margin-top: 12px;
+  }
+
+  .header-column {
+    width: 600px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .graphics {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .graphics-column {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .clouds {
+    position: relative;
+  }
+
+  .cloud-1 {
+    bottom: 120px;
+  }
+
+  .cloud-2 {
+    right: 100px;
+    transform: scale(0.65);
+  }
+
+  .cloud-3 {
+    left: 50px;
+    bottom: 80px;
+  }
+
+  .cloud-4 {
+    bottom: 50px;
+    left: 100px;
+    transform: scale(0.5);
+  }
+
+  .hancock {
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    right: 120px;
+  }
+
+  .prudential {
+    position: relative;
+    top: 32px;
+    z-index: -1;
+    left: 134px;
+  }
+
+  .content-container {
+    height: 2220px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 400px;
+  }
+
+  .content-column {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 24pt;
+  }
+
+  .profile-picture {
+    position: relative;
+    bottom: 57px;
+  }
+
+  .src-logo {
+    height: 45px;
+  }
+
+  .contact-button {
+    border: 1px solid #203E51;
+    padding-left: 24px;
+    padding-right: 24px;
+/*    border-radius: 3px;*/
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10pt;
   }
